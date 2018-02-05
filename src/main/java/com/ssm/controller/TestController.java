@@ -13,5 +13,25 @@ public class TestController {
     public String index(){
         return "index";
     }
+    @RequestMapping(value = {"/alreadyhandle"})
+    public String alreadyhandle(){
+        return "alreadyhandle";
+    }
 
+    @RequestMapping(value = {"/hello"})
+    public String hello(){
+        return "hello";
+    }
+    @RequestMapping(value = {"/home"})
+    public String home(){
+        return "home";
+    }
+    @RequestMapping(value = {"/test"})
+    public String test(){
+        return "test";
+    }
+    @RequestMapping(value = {"/waithandle"})
+    public String waithandle(){
+        return "waithandle";
+    }
 }

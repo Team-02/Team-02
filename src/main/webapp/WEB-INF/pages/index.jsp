@@ -81,7 +81,7 @@
 
     //init iframe src
     var iframe = document.getElementById("mainframe");
-    iframe.src = "/pages/hello.jsp";
+    iframe.src = "/hello";
 
     function onItemSelect(e) {
         var item = e.item;

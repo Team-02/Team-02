@@ -103,7 +103,7 @@
                 <div field="address" width="120">当前环节</div>
                 <div field="address" width="120">提报人</div>
                 <div field="address" width="120">提报时间</div>
-                <div field="address" width="120">操作</div>
+                <a class="mini-button" img="/imgs/vcard_edit.png">办理</a>
             </div>
         </div>
     </div>
