@@ -1,0 +1,8 @@
+﻿[
+	{ id: "user", text: "个人中心", iconCls: "icon-add"},
+	{ id: "right", text: "个人工作平台"},
+	{ id: "addRight", pid: "right", text: "任务管理", iconCls: "Note", url: "/pages/home.jsp", iconPosition: "top" },
+
+
+
+]
